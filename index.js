@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/twitter', (req, res) =>{
-    res.send('<h2>youtube.com</h2>')
+    res.send('<h2>youtube.com</h2>' , `Port active ${port}`)
   })
 app.listen(port, (req,res)=>{
     console.log(`Port active ${port}`)
